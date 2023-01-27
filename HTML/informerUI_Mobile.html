@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThingyTag - Your Safety Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/6b9b62ae10.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body class="informerUI">
+    <section class="informerui-mobile">
+        <div class="IUI-form">
+            <h2 style="font-size: 32px;">Thank you for <span style="color: #25AA0E">Scanning. </span></h2>
+            <h3>Let's get this back to the owner.</h3>
+            <form class="informerUI-form" action="Notified_Owner.html">
+                <select name="lostitems" id="IUI-name01">
+                    <option value="selectitem" selected>Select the item you found</option>
+                    <option value="item1">Mobile phone</option>
+                    <option value="item2">Laptop</option>
+                    <option value="item3">Electronic Item</option>
+                    <option value="item4">Purse / Wallet</option>
+                    <option value="item5">Bag / Luggage</option>
+                    <option value="item5">Toy / Play Thing</option>
+                    <option value="item5">Sports Kit</option>
+                    <option value="item5">Tiffin box / Bottle</option>
+                    <option value="item5">Pet</option>
+                    <option value="item5">Keys</option>
+                    <option value="item5">Other Valuable</option>
+
+                </select>
+                <input type="text" id="IUI-name" placeholder="Your Name">
+                <input type="number" id="IUI-phone" placeholder="Phone Number">
+
+                <div class="img-upd-container">
+                    <input type="file" id="file" accept="image/*" hidden>
+                    <div class="imgarea" data-img="">
+                        <i class="fa-solid fa-cloud-arrow-up"></i>
+                        <h3 id="imgareatext">Upload the photo of the item found.</h3>
+                        <h3 id="imgareabottomline"> Image size must be less than <span>2MB</span></h3>
+                    </div>
+                    <button class="select-image">Select Image</button>
+                </div>
+                <button class="location">
+                    <h3 class="locationtxt">Add your location here (optional)</h3>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                </button>
+                <input type="submit" value="Notify Owner" class="rgtr-btn rgstrfield">
+            </form>
+            <div class="notifiedfooter">
+                <a href="Index.html" id="nfimg"><img src="Images/Thingytag logo.svg"></a>
+                <h3 style="color: white; font-size: 12px;">Want to get your ThingyTag?</h3>
+                <a href="Index.html"><button class="nav-button">Buy Now</button></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

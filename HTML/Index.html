@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThingyTag - Your Safety Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/6b9b62ae10.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+
+    <div class="loader loader--hidden">
+
+    </div> 
+
+<!-- NAVIGATION & HEADER -->
+
+    <section class="header">
+        <div class="navigationbar">
+
+        <nav class="row">
+            <div class="navlogo">
+            <a href="Index.html"><img src="Images/ThingyTag Logo.png" class="headerlogo"></a>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">
+                    close
+                    </span>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Meet ThingyTag.html">Meet ThingyTag</a></li>
+                    <li><a href="Personalized.html">Personalize</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                   <li><a href="buynow.html"><button class="nav-button">Get ThingyTag</button></a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showMenu()"> menu </span>
+        </nav>
+
+        </div>
+
+        <div class="fixedbutton">
+            <a href="buynow.html"><button class="nav-button01">Get ThingyTag</button></a>
+        </div>
+        <div>
+            <i class="fa-solid fa-message"></i>
+        </div>
+
+        <div class="row-section1">
+
+            <div class="col1-section1">
+                <h1><span style="color: #ffffff;">Get it Back with</span><span style="color: #42C106;"> ThingyTag.</span></h1>
+                <h3 id="headlinepaddingtext"><span style="color: #ffffff;">Your safety companion that safeguards your valuables<br></span><span style="color: #7F7F96;"> like Phone, Laptop, Pet, Handbag, Purse, Sports Gear, Keys, Toys, Helmet, etc. literally anything that you possess & value.</span></h3>
+                <div class="row headerbutton">
+                    <a href="buynow.html"><button class="nav-button">Get ThingyTag</button></a>
+                    <a href="#" style="text-decoration: none;">
+                        <div class="row seevideo">
+                                <span style="color: #42C106;"><i class="fa-regular fa-circle-play"></i></span>
+                                <h3 style="color: #42C106; font-size: 12px; padding-left: 8px;">See how it works</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col2-section1">
+                <img src="Images/Hero-Image.gif" class="heroimage">
+            </div>
+        </div>
+
+    </section>
+
+<!-- TESTIMONIALS -->
+
+    <section class="sectionbackground">
+        <div class="row-testimonial">
+
+            <div class="col1-testimonial">
+                 <div class="row-star">
+                    <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+                    <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+                    <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+                    <span style="color: #7F7F96;"><i class="fa-solid fa-star"></i></span>
+                    <span style="color: #7F7F96;"><i class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="test-text">
+                    <h3 id="whattheysay">
+                        <span style="color: #7F7F96;">“As a tech enthusiast, I want to protect my tech gadgets Wacom & laptop from getting lost.</span>
+                        <span style="color: #ffffff;">A useful product.”</span>
+                    </h3>
+                </div>
+                <div class="row-name">
+                    <div class="col1">
+                        <img src="Images/Testimonials/Ellipse 1.png" class="testimonialimg">
+                    </div>                    
+                    <div class="col2-name">
+                        <h3 id="designationname">
+                            <span style="color: #ffffff; font-size: 16px;"><strong>Gaurav Derebial</strong></span>
+                            <br> <span style="color: #7F7F96; font-size: 14px;">Graphic Designer</span></h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col1-testimonial">
+                <div class="row-star">
+                   <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+                   <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+                   <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+                   <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+                   <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+               </div>
+               <div class="test-text">
+                   <h3 id="whattheysay">
+                       <span style="color: #7F7F96;">“ThingyTag helped me to get find my dog which I lost few months back. </span>
+                       <span style="color: #ffffff;">A huge thanks to the creator.”</span>
+                   </h3>
+               </div>
+               <div class="row-name">
+                   <div class="col1">
+                       <img src="Images/Testimonials/Testimonial 2.png" class="testimonialimg">
+                   </div>                    
+                   <div class="col2-name">
+                    <h3 id="designationname">
+                        <span style="color: #ffffff; font-size: 16px;"><strong>Anjana Vijayan</strong></span>
+                        <br> <span style="color: #7F7F96; font-size: 14px;">Mom of Charlie (the dog)</span></h3>
+                </div>
+               </div>
+           </div>
+
+
+           <div class="col1-testimonial">
+            <div class="row-star">
+               <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+               <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+               <span style="color: #FFC613;"><i class="fa-solid fa-star"></i></span>
+               <span style="color: #7F7F96;"><i class="fa-solid fa-star"></i></span>
+               <span style="color: #7F7F96;"><i class="fa-solid fa-star"></i></span>
+           </div>
+           <div class="test-text">
+               <h3 id="whattheysay">
+                   <span style="color: #ffffff;">“This is an amazing product</span>
+                   <span style="color: #7F7F96;"> that helped me to find my phone wallet when it was lost. Thanks to ThingyTag creator.”</span>
+               </h3>
+           </div>
+           <div class="row-name">
+               <div class="col1">
+                   <img src="Images/Testimonials/Testimonial3.png" class="testimonialimg">
+               </div>                    
+               <div class="col2-name">
+                <h3 id="designationname">
+                    <span style="color: #ffffff; font-size: 16px;"><strong>Vignesh S Krishnan</strong></span>
+                    <br> <span style="color: #7F7F96; font-size: 14px;">Content Marketer</span></h3>
+            </div>
+           </div>
+
+       </div>
+    </section>
+
+<!-- WHY THINGYTAG SECTION -->
+
+
+    <section class="sectionbackground1">
+            <div class="row-section2">
+                <div class="col1-section2">
+                    <h4 id="paddingtextleft">Why ThingyTag?</h4>
+                    <h2 id="paddingtextleft"><span style="color: #ffffff;">Get Instant Alert 🚨</span></h2>
+                    <h3 id="paddingtext"><span style="color: #ffffff;">Get instant alert whenever someone finds your </span>
+                    <span style="color: #7F7F96;">lost / misplaced items.</span></h3>
+                    <a href="buynow.html" id="paddingtextleft"><button class="nav-button">Get ThingyTag</button></a>
+                </div>
+                
+                <div class="col2-section2 imgcol">
+                    <img src="Images/Frame 153.png" class="sec1-image">
+                </div>
+            </div>
+    </section>
+
+    <section class="sectionbackground1">
+        <div class="row-section2">
+            <div class="col1-section2">
+                <h4 id="paddingtextleft">Why ThingyTag?</h4>
+                <h2 id="paddingtextleft"><span style="color: #ffffff;">Protected Identity 📍</span></h2>
+                <h3 id="paddingtext"><span style="color: #7F7F96;">Get as well as provide information </span>
+                <span style="color: #ffffff;">without revealing your personal data</span>
+                <span style="color: #7F7F96;">to other party to stay protected.</span></h3>
+                <a href="buynow.html" id="paddingtextleft"><button class="nav-button">Get ThingyTag</button></a>
+            </div>
+            
+            <div class="col2-section2 imgcol">
+                <img src="Images/Frame 1531.png" class="sec1-image">
+            </div>
+        </div>
+    </section>
+    
+        <section class="sectionbackground1">
+            <div class="row-section2">
+                <div class="col1-section2">
+                    <h4 id="paddingtextleft">Why ThingyTag?</h4>
+                    <h2 id="paddingtextleft"><span style="color: #ffffff;">Whereabouts Tracking 🧿</span></h2>
+                    <h3 id="paddingtext"><span style="color: #ffffff;">Track whereabouts of your lost item </span>
+                    <span style="color: #7F7F96;">through Qrowny community.</span></h3>
+                    <a href="buynow.html" id="paddingtextleft"><button class="nav-button">Get ThingyTag</button></a>
+                </div>
+                
+                <div class="col2-section2 imgcol">
+                    <img src="Images/Image 2.png" class="sec1-image">
+                </div>
+            </div>
+    </section>
+
+    <section class="sectionbackground1">
+        <div class="row-section2">
+            <div class="col1-section2">
+                <h4 id="paddingtextleft">Why ThingyTag?</h4>
+                <h2 id="paddingtextleft"><span style="color: #ffffff;">Get Rewarded 🥳</span></h2>
+                <h3 id="paddingtext"><span style="color: #7F7F96;">Get handsome </span>
+                    <span style="color: #ffffff;">rewarded for your good deed </span>
+                    <span style="color: #7F7F96;">of returning the article to its legitimate owner.</span>
+                </h3>
+                <a href="buynow.html" id="paddingtextleft"><button class="nav-button">Get ThingyTag</button></a>
+            </div>
+            
+            <div class="col2-section2 imgcol">
+                <img src="Images/Image 4.png" class="sec1-image">
+            </div>
+        </div>
+    </section>
+
+
+<!-- FEATURE SECTION -->
+
+<section class="featuresection">
+    <div class="container">
+        <h2 style="text-align: center;">
+
+            <span style="color: #ffffff;">The problem of misplacing</span>
+            <span style="color: #ffffff;">valuables</span>
+            <span style="color: rgba(255, 255, 255, 0.3);"> persists with almost everyone &</span>
+            <span style="color: #42C106;">ThingyTag </span>
+            <span style="color: rgba(255, 255, 255, 0.3)"> addressess this pertinent issue by </span>
+            <span style="color: #ffffff;"> enabling them to get it back </span>
+            <span style="color:  rgba(255, 255, 255, 0.3)"> with ease. </span>
+        </h2>
+    </div>
+    
+    <div class="row feature">
+        <div class="col whitebox">
+            <h3 id="innerpadding"><span style="font-size: 32px;">📱</span></h3>
+            <h3 id="innerpadding"><span style="color:#ffffff;;"><strong>No app required</strong></span></h3>
+            <h3><span style="color:#7F7F96;">You don't need to download any app through google play store or apple store.</span></h3>
+        </div>
+
+        <div class="col whitebox">
+            <h3 id="innerpadding"><span style="font-size: 32px;">😎</span></h3>
+            <h3 id="innerpadding"><span style="color:#ffffff;"><strong>Simple to use</strong></span></h3>
+            <h3><span style="color:#7F7F96;">Finder scans your QR code and you get information of the finder. Simple right?</span></h3>
+        </div>
+
+        <div class="col whitebox">
+            <h3 id="innerpadding"><span style="font-size: 32px;">🚨</span></h3>
+            <h3 id="innerpadding"><span style="color:#ffffff;"><strong>Get Notified</strong></span></h3>
+            <h3><span style="color:#7F7F96;">Get notified through messages or calls to your mobile without reveal your identity.</span></h3>
+        </div>
+
+        <div class="col whitebox">
+            <h3 id="innerpadding"><span style="font-size: 32px;">🤠</span></h3>
+            <h3 id="innerpadding"><span style="color:#ffffff;"><strong>Lifetime Validity</strong></span></h3>
+            <h3><span style="color:#7F7F96;">You can purchase ThingyTag for one time and safeguard all your valuables.</span></h3>
+        </div>
+    </div>
+</section>
+
+<!-- ARE  YOU PART OF 95% PEOPLE? -->
+
+<section class="backgroundsection">
+    <div class="pointersborder">
+        <div class="pointersection">
+            <div>
+                <h2><span class="fact"> Factolympics</span> - Are you part of <span class="partof">the 99%?</span></h2>
+                <h3 id="becausethey"><span style="color: #42C106;"><strong>BECAUSE THEY..</strong></span></h3>
+            </div>
+            <div class="pointercontainer">
+                <div class="row threepointers">
+                    <div class="row pointers">
+                        <div>
+                            <span style="color: #42C106;"><i class="fa-solid fa-circle-check"></i></span>
+                        </div>
+                        <div class="pointertext">
+                            <h3 style="color: #7F7F96; line-height: 24px;">are honest and don't have the need for other's belongings. </h3>
+                        </div>
+                    </div>
+                    <div class="row pointers">
+                        <div>
+                            <span style="color: #42C106;"><i class="fa-solid fa-circle-check"></i></span>
+                        </div>
+                        <div class="pointertext">
+                            <h3 style="color: #7F7F96; line-height: 24px;">want to give back the found valuables of others.</h3>
+                        </div>
+                    </div>
+                    <div class="row pointers">
+                        <div>
+                            <span style="color: #42C106;"><i class="fa-solid fa-circle-check"></i></span>
+                        </div>
+                        <div class="pointertext">
+                            <h3 style="color: #7F7F96; line-height: 24px;">tend to misplace or lose their valuables.</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row twopointers">
+                    <div class="row pointers">
+                        <div>
+                            <span style="color: #42C106;"><i class="fa-solid fa-circle-check"></i></span>
+                        </div>
+                        <div class="pointertext">
+                            <h3 style="color: #7F7F96; line-height: 24px;">don't know to whom a discovered valuable belongs to.</h3>
+                        </div>
+                    </div>
+                    <div class="row pointers">
+                        <div>
+                            <span style="color: #42C106;"><i class="fa-solid fa-circle-check"></i></span>
+                        </div>
+                        <div class="pointertext">
+                            <h3 style="color: #7F7F96; line-height: 24px;">feel gratitude & pray good for those who return their possession.</h3>
+                        </div>
+                    </div>            
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BANNER SECTION -->
+
+<section class="bannersection">
+    <div class="row banner">
+        <div class="bannertext">
+            <div>
+                <h2> 
+                    <span style="color: #ffffff;">
+                        We believe that you don't just own a thing,
+                    </span>
+                    <span style="color: #42C106;">
+                        you possess it.
+                    </span>
+                </h2>
+            </div>
+
+            <div class="bannertagline">
+                <h3>
+                    <span style="color: #7F7F96;">
+                        Irrespective of its size, brand or price and its imperative to protect and safeguard it.
+                    </span>
+                </h3>
+            </div>
+
+            <div>
+            <a href="buynow.html"><button class="nav-button" style="margin-top: 16px;">Get ThingyTag</button></a>
+            </div>
+
+            <div class="buttondisclaimer">
+                <h3>
+                    <span style="color: #ffffff;">
+                         No lengthy process. 
+                    </span>
+                    <span style="color: #7F7F96;"> 
+                        Sign in. Get your ThingyTag
+                    </span>
+                </h3>
+            </div>
+
+        </div>
+
+        <div>
+            <img src="Images/happy-young-woman-sitting-floor-using-laptop-gray-wall.png" class="bannersecimg">
+        </div>
+    </div>
+</section>
+
+<!-- FAQ SECTIONS -->
+<section>
+    <div class="container1">
+        <div class="accordion">
+            
+            <div class="faqquestion">
+                <div class="underline">
+                    <h2> Frequently Asked Question</h2>
+                </div>
+            </div>
+
+            <div class="faqquestionssection">
+                <div class="accordion-item" id="question1">
+                    <a class="accordion-link" href="#question1">
+                        <strong> What is ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                            ThingyTag is a product which helps you to safeguard your valuables without revealing your identity explicitly to anyone.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question2">
+                    <a class="accordion-link" href="#question2">
+                        <strong> How to use ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                Any person who finds your valuable which is attached or stuck with a ThingyTag sticker must click and scan the QR code with his camera and click the <a href=""> ThingyTag.com </a> pop-up to provide basic details. After that instantly the information will be passed on to the product owner through message & call to their registered mobile number.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question3">
+                    <a class="accordion-link" href="#question3">
+                        <strong> Do I have to download an app to use ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                No. ThingyTag operates on a unique No-App Platform. <strong style="font-style: italic;"> App Download is not Required </strong>
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question4">
+                    <a class="accordion-link" href="#question4">
+                        <strong> What are the benefits of using ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                More than 99% of the People, when they find an article/item which is not theirs wish to return it, but they don't know your contacts or how to reach you. ThingyTag helps people get back their products/articles/items from these good people in a simpler way and without revealing identity explicitly.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question5">
+                    <a class="accordion-link" href="#question5">
+                        <strong> Which are the things I can safegaurd/protect through ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                You can ThingyTag literally any item you possess be it a bag, purse, mobile phone, luggage, laptop, sports gear and even pets by sticking the ThingyTag sticker or by putting the tag on it. You can use it for multiple items as ThingyTag provides as many as nine stickers/tags in one pack.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question6">
+                    <a class="accordion-link" href="#question6">
+                        <strong> How will I contact the informer using ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                Once the ThingyTag is scanned by the finder of your misplaced article/item, information will come through message/call to your registered mobile number, and you can follow the instructions.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question7">
+                    <a class="accordion-link" href="#question7">
+                        <strong> Is ThingyTag safe?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                Yes. Since ThingyTag doesn’t disclose the contacts of the owner, it's safe.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+                
+                <div class="accordion-item" id="question8">
+                    <a class="accordion-link" href="#question8">
+                        <strong> How is ThingyTag different from any other information tag/platform?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                ThingyTag provides complete security in terms of not revealing your identity and also through unique code-based solutions to get back your valuables. Also, ThingyTag is a non-app-based platform which doesn't occupy any space in your mobile & is ultra simple to use.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question9">
+                    <a class="accordion-link" href="#question9">
+                        <strong> Why should I signup with ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                ThingyTag is easy and simple way to safeguard your things and when you sign up you get the complete benefits associated with it.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question10">
+                    <a class="accordion-link" href="#question10">
+                        <strong> How to purchase ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                ThingyTag can be purchased online through ThingyTag.com or can be bought through popular online sales portals. The ThingyTag will be delivered to the address given during registration within 5 working days or as per the terms of the online portal you buy from.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question11">
+                    <a class="accordion-link" href="#question11">
+                        <strong> Can I buy more units of ThingyTag if I want?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                Yes. You can buy online or contact us at thingytag.Com as and when you want to tag a greater number of items/products.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question12">
+                    <a class="accordion-link" href="#question12">
+                        <strong> What is the validity of ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                There is no validity attached to ThingyTag, you get lifetime useability of the tags/stickers.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question13">
+                    <a class="accordion-link" href="#question13">
+                        <strong> Will I incur any recurrent costs on the ThingyTag?</strong>
+                        <i class="fa-solid fa-plus" style="color: #7F7F96; font-size: 16px;"></i>
+                        <i class="fa-solid fa-xmark" style="color: #7F7F96; font-size: 16px;"></i>
+                    </a>
+                    <div class="answer">
+                        <h3 style="padding: 8px 24px;">
+                            <span style="color: #1a202cab;">
+                                After the free usage limit is exhausted, you may just have to pay nominal charges for the calls/messages you receive. At this point in time, it is a onetime investment to secure your valuable belongings.
+                            </span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+    <div class="container2">
+        <div class="rowfooter">
+            
+            <div class="footer1 col">
+                <div class="navlogo1">
+                    <a href="Index.html"><img src="Images/ThingyTag Logo.png" class="headerlogo"></a>
+                    <h3 style="color: #7F7F96; font-size: 14px;"><strong>Your Safety Companion</strong></h3>
+                </div>
+                <div class="finduson">
+                    <h3><span style="color: #7F7F96; font-size: 14px;"> Find us on </span></h3>
+                    <div class="row smicons">
+                        <a href="https://www.facebook.com/profile.php?id=100089369658121" target="_blank"><span style="font-size: 24px;"><i class="fa-brands fa-facebook"></i></span></a>
+                        <a href="https://www.instagram.com/thingytag/" target="_blank"><span style="font-size: 24px;"><i class="fa-brands fa-instagram"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer1 col">
+                    <span style="color: #1A202C;"><h3 style="margin-bottom: 16px; font-weight: 800">HEADING</h3></span>
+                    <a href="Meet ThingyTag.html"><span style="color: #7F7F96;"><h3 style="font-size:14px; margin-bottom: 8px;">About ThingyTag</h3></span></a>
+                    <a href="Personalized.html"><span style="color: #7F7F96;"><h3 style="font-size:14px; margin-bottom: 8px;">Personalize</h3></span></a>
+                    <a href="buynow.html"><span style="color: #7F7F96;"><h3 style="font-size:14px; margin-bottom: 8px;">Buy ThingyTag</h3></span></a>
+                    <a href="Terms&Conditions.html"><span style="color: #7F7F96;"><h3 style="font-size:14px; margin-bottom: 8px;">Terms & Conditions</h3></span></a>
+            </div>
+
+            <div class="footer1 col">
+                <span style="color: #1A202C;"><h3 style="margin-bottom: 16px; font-weight: 800">CHAT WITH US</h3></span>
+                <span style="color: #7F7F96;"><h3 style="font-size:14px; margin-bottom: 8px;">+91 99879 01766</h3></span>
+                <a href="mailto:hi@thingytag.com"><span style="color: #7F7F96;"><h3 style="font-size:14px; margin-bottom: 8px;">hi@thingytag.com</h3></span></a>
+            </div>
+
+            <div class="footer1 col">
+                <span style="color: #7F7F96;"><h3 style="font-size:14px; font-weight: 800">A Brand of MilesAhead Tech Pvt Ltd</h3></span>
+                <span style="color: #7F7F96;"><h3 style="font-size:10px;">Copyright © 2022. All Rights Reserved</h3></span>
+            </div>
+
+            <div class="shopping-icons">
+                <h3>Available at</h3>
+                <div class="row shoppingicons">
+                <a href="https://amzn.eu/d/asqkG8x"><img src="Images/Shopping icons/Amazon_icon 1.svg" alt=""></a>
+                <a href="http://dl.flipkart.com/dl/thingytag-thingy001/p/itm2b46c1ff4a753?pid=TDHGHJPYVSZVZ2XH&cmpid=product.share.pp"><img src="Images/Shopping icons/Frame.svg" alt=""></a>
+                <a href="https://www.meesho.com/fuzzy-cable-ties-tags-threads/p/3k2rjr"><img src="Images/Shopping icons/Meesho_Logo_Full 1.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
